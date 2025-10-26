@@ -1,11 +1,12 @@
-import requests
+# 🪙 CryptoTracker
 
-def get_binance_price(symbol: str):
-    url = f"https://api.binance.com/api/v3/ticker/price?symbol={symbol.upper()}USDT"
-    data = requests.get(url).json()
-    return float(data["price"])
+**CryptoTracker** — это Python-приложение для сравнения цен криптовалют с разных бирж (Binance, Coinbase и др.)
 
-def get_coinbase_price(symbol: str):
-    url = f"https://api.coinbase.com/v2/prices/{symbol.upper()}-USD/spot"
-    data = requests.get(url).json()
-    return float(data["data"]["amount"])
+## 🚀 Возможности
+- Получает цены через публичные API
+- Сравнивает котировки между биржами
+- Показывает разницу в процентах
+
+## 🧠 Пример использования
+```bash
+python main.py
