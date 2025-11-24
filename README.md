@@ -1,6 +1,6 @@
 # 🪙 CryptoTracker
 
-**CryptoTracker** — это Python-приложение  и не только для сравнения цен у криптовалют с разных бирж (Binance, Kraken, Coinbase, Gate Mexc Coinchanges  Bitzw okx  abd Coineechxe Bytri CoinMerse Kucoin Cryptocoin и многое др.)
+**CryptoTracker** — это Python-приложение  и не только для сравнения ценs у криптовалют с разных бирж (Binance, Kraken, Coinbase, Gate Mexc Coinchanges  Bitzw okx  abd Coineechxe Bytri CoinMerse Kucoin Cryptocoin и многое др.)
 
 ## 🚀 Возможности
 - Получает цены через публичные API
